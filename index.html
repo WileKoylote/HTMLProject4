@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTMLProject4</title>
+<link href="main.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/kte7hjq.css">
+    <style>
+        p{color:darkgoldenrod}
+        ol{color:cadetblue}
+        .firstCell{background-color:turquoise}
+        .secondCell{background-color:forestgreen}
+        .info{background-color:aqua;
+              margin:0 auto;
+              padding:5px
+        }
+        #heading{background-color:yellow}
+    </style>
+</head>
+
+<body>
+    <!-- I went to this park myself and took these pictures! Really learned a lot about San Antonio's History!-->
+    <nav>
+        <ul>
+            <li><a href="http://google.com">Google</a></li>
+            <li><a href="localsite.html">San Pedro Springs</a></li>
+        </ul>
+    </nav>
+    <div id="webBox">
+        <header><h1>San Pedro Springs Park</h1></header>
+        
+        <section>
+        <p><strong>San Antonio is a great city that is rich in history and culture. However, have you ever wondered where it all began?<br>Here are some highlights from San Pedro Springs Park! The birthplace of San Antonio!&forall; </strong></p>
+        </section>
+        
+        <ol><em>San Pedro Springs Pool<br>
+        San Pedro Library &#128507;<br>
+        San Pedro Acequia's</em></ol>  
+        
+    <article class="info">
+    <h3 id="heading">San Pedro Springs Pool</h3>
+        <img src="images/Pool.jpg" alt="Concrete pool filled with water in the middle of lush trees."/>
+        <p style="color:limegreen;">Built in 1922, this swimming pool is fed by fresh spring watter from nearby the park and is open during the summer for vistors!</p>
+        </article>
+        
+    <article class="info">  
+    <h4>San Pedro Library</h4>
+        <img src="images/Library.jpg" alt="brown and beige library"/>
+        <p>The San Pedro Library was built in 1930 and was the first library built in San Antonio and a public park, which just so happens to be the the oldest public park in Texas!</p>
+        </article>
+        
+    <article class="info">
+    <h5>San Pedro Acequia's</h5>
+        <img src="images/Acequia.jpg" alt="Acequia amist trees and park benches."/>
+        <p>These Acequia's, or water canals, were built to transport water long before San Antonio became a city! Their construction is what led many to come to San Antonio for water. Eventually, as the city grew, streets were built over the acequias, and it's why many streets are shaped the way they are today!</p>
+    </article>
+        
+        <p title="Click the links down below!" style="color:aqua;"><i>Park Information</i></p>
+       
+    <aside> 
+    <table>
+        <tr>
+            <th class="firstCell" id="JavaDemo">Days</th>
+            <th class="secondCell">Hours</th>
+        </tr>
+        <tr>
+            <td>Every Day</td>
+            <td>5AM-11PM</td>
+        </tr>
+    </table>
+        
+    <button type="button" oneclick="document.getElementById('JavaDemo').innerHTML = Come When It's Sunny!">Tip</button>
+        </aside>
+    
+    <footer style="text-align: center;">Copyright 2023</footer>
+    </div>
+</body>
+</html>
